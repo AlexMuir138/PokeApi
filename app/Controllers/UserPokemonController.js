@@ -35,7 +35,7 @@ export class UserPokemonController{
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
-      confirmButtonText: 'Yes, delete it!'
+      confirmButtonText: 'Yes, put it in the cold!'
     })
     if(result.isConfirmed){
     sandboxService.releaseUserPokemon(pokemonId)
